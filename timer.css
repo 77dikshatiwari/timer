@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-color: #364656;
+}
+.container{
+    border: 5px solid #34DDDD;
+    border-radius:50%;
+    width:400px;
+    height:400px;
+    margin-top:100px;
+    margin-left: 400px;
+    display:flex;
+    position:relative;
+}
+.heading{
+    text-align:center;
+    color:white;
+    font-size: 35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+        text-align:center;
+        color:white;
+        font-size: 35px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        top:65%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+button{
+    border-radius:3px;
+    box-shadow: -2px -2px 4px #03f6f9;
+    margin:5px;
+    padding:6px 8px;
+}
+.fa fa-play,.fa fa-pause,.fa fa-repeat{
+    background-color:white;
+}
